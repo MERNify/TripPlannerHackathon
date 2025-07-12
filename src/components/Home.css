@@ -1,0 +1,64 @@
+.home {
+  position: relative;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.home-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  
+  height: 150%;
+  z-index: 1;
+}
+
+.home-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  opacity: 0.9;
+  box-shadow: none;
+}
+
+.home-content {
+  position: relative;
+  z-index: 2;
+  text-align: left;
+  max-width: 600px;
+  margin-left: 50%;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.home h1{
+    font-size:50px;
+    font-weight: 60;
+    color: white;
+    text-align: left;
+    margin-bottom: 20px;                                                    
+}   
+.home p{
+    font-size: 1.5rem;
+    color: white;
+    text-align: left;
+    margin-bottom: 20px;
+}               
+
+.cta-button {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+.cta-button:hover {
+  background-color: #0056b3;
+}
